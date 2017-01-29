@@ -1,0 +1,109 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: Pn+lfPFl7xCRH+lwm7vUdAcXTwI=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: t46510otBHw3WKwFznqfVqBpYec=
+
+Name: system/addon.d/70-gapps.sh
+SHA1-Digest: mTiWmtn8rxlAhrPHaEsxQEix0cw=
+
+Name: system/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk
+SHA1-Digest: 8VXYyl58nMdI0QTXNmJ58+Y+8hE=
+
+Name: system/priv-app/PrebuiltGmsCore/lib/arm/libjgcastservice.so
+SHA1-Digest: tzEjylfzMVmVpMX06kZpg1bPiV8=
+
+Name: system/priv-app/GoogleFeedback/GoogleFeedback.apk
+SHA1-Digest: OWbhqZ9vT7BPLzFJWny6qPmlbC8=
+
+Name: system/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk
+SHA1-Digest: q51nrzVYQMCs0a1uWZ9qZqI3AqU=
+
+Name: system/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk
+SHA1-Digest: 9tjPTabWE7Knrx89+7TwaUCSssk=
+
+Name: system/etc/preferred-apps/google.xml
+SHA1-Digest: BtKOOwHP7GVatyEUSLBTn1dzGB0=
+
+Name: system/etc/permissions/com.google.android.maps.xml
+SHA1-Digest: QaPNB5FUfwkZ5T3fG1bXJpF8pNY=
+
+Name: system/priv-app/PrebuiltGmsCore/lib/arm/libgms-ocrclient.so
+SHA1-Digest: oNNLCc5G9O4j7TFQUUsHf/Nbbf0=
+
+Name: system/lib/libjni_latinime.so
+SHA1-Digest: V7JN/Bm+672FMsIyGy9lbEZZ10U=
+
+Name: system/etc/permissions/com.google.widevine.software.drm.xml
+SHA1-Digest: MvejKuFQO4VpexrZo29KXJ+HiE0=
+
+Name: system/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk
+SHA1-Digest: GNU5LbU2b3+cCY0p1dcxBPT64QU=
+
+Name: system/framework/com.google.widevine.software.drm.jar
+SHA1-Digest: ZqDydgIofakQPol7A1l/RfRJcjw=
+
+Name: system/priv-app/PrebuiltGmsCore/lib/arm/libWhisper.so
+SHA1-Digest: /rY71foU92KoPQxe86sOs6F5sus=
+
+Name: system/priv-app/Phonesky/Phonesky.apk
+SHA1-Digest: swP3TipQVfMRvA5CyFrbsuLbzc0=
+
+Name: system/priv-app/SetupWizard/SetupWizard.apk
+SHA1-Digest: 6UTr7IWUYlKgbnqak7HsfOpoYs0=
+
+Name: META-INF/com/android/otacert
+SHA1-Digest: QW7yPFUPbhU0tUYKW4i2EdneCnw=
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: G0goNU3hmvglP+FDxgLrffZ3TwU=
+
+Name: system/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk
+SHA1-Digest: Jh0BQKBIbr7FkInKSkkHUzwYcdY=
+
+Name: system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+SHA1-Digest: Vgi9PRN0UxrWQlRGJ68C2NS4hKY=
+
+Name: system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so
+SHA1-Digest: /RSgeouLTjsSdgGcY2xcZwGeRTM=
+
+Name: system/priv-app/PrebuiltGmsCore/lib/arm/libsslwrapper_jni.so
+SHA1-Digest: dOkAdCpZeL9A3tC7MA5ZX1lQaO8=
+
+Name: system/priv-app/PrebuiltGmsCore/lib/arm/libNearbyApp.so
+SHA1-Digest: jy1CuVQv5ItM84n/EBDRMA6UqD0=
+
+Name: system/etc/permissions/com.google.android.camera2.xml
+SHA1-Digest: g6dyy6uxSzpgYwJgTHtFxu5ApVE=
+
+Name: system/priv-app/PrebuiltGmsCore/lib/arm/libgames_rtmp_jni.so
+SHA1-Digest: S+brdNer2d9c7QQph5IJQk3lakk=
+
+Name: system/etc/permissions/com.google.android.media.effects.xml
+SHA1-Digest: j/P++0UEThlMLHb5ewoUXe96pQ4=
+
+Name: system/framework/com.google.android.maps.jar
+SHA1-Digest: WnkvxC+SDqPPYBKZP1bweQJWra8=
+
+Name: system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_support.so
+SHA1-Digest: JId1Eqz1eN8A46IRDYKB3oOwX88=
+
+Name: system/priv-app/PrebuiltGmsCore/lib/arm/libgcastv2_base.so
+SHA1-Digest: B9Tn5HlSolkOhG0LNUts/N5NEy8=
+
+Name: system/framework/com.google.android.media.effects.jar
+SHA1-Digest: AsTPv+h4IVqzt2Wm4Sq8515yIrI=
+
+Name: system/framework/com.google.android.camera2.jar
+SHA1-Digest: p8P9asF+MCSRYQnTXHwUt5V5B0k=
+
+Name: system/priv-app/GoogleLoginService/GoogleLoginService.apk
+SHA1-Digest: ++stvN8GSSUAU04a91gGbfr270c=
+
+Name: system/priv-app/PrebuiltGmsCore/lib/arm/libgmscore.so
+SHA1-Digest: XihvEjdjx+u4xEELeAqkgT5byZA=
+
+Name: system/priv-app/PrebuiltGmsCore/lib/arm/libconscrypt_gmscore_jni.so
+SHA1-Digest: YvAVeOV0Muu583ioqvG56aDLY5U=
+

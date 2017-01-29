@@ -1,0 +1,45 @@
+ui_print("******************************************");
+ui_print("Bloatware Removal Script for");
+ui_print("LineageOS 14.1 Nightly");
+ui_print("");
+ui_print("******************************************");
+show_progress(1, 15);
+ui_print("Unmounting system..");
+run_program("/sbin/busybox", "umount", "/system");
+ui_print("->");
+ui_print("Mounting system..");
+run_program("/sbin/busybox", "mount", "/system");
+show_progress(1, 15);
+ui_print("This will remove Calendar, CMFileManager, Email, Gello, messaging, Dialer, Gallery2 and Contacts");
+ui_print("Removing..");
+delete_recursive(
+	"/system/app/Calendar",
+	"/system/app/CMFileManager",
+	"/system/app/Email",
+	"/system/app/Gello",
+	"/system/app/messaging",
+	"/system/priv-app/Dialer",
+	"/system/priv-app/Gallery2",
+	"/system/priv-app/Contacts"
+);
+show_progress(1, 15);
+ui_print("--");
+ui_print("Copying backup script..");
+package_extract_dir("system", "/system");
+show_progress(1, 15);
+ui_print("Cleaning up and setting metadata..");
+set_metadata_recursive("/system/addon.d", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+set_metadata_recursive("/system/app", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+ui_print("Unmounting system..");
+show_progress(1, 15);
+ui_print("- - - - - - - - - - - - - - - - - - - - - - - - - -");
+run_program("/sbin/busybox", "umount", "/system");
+ui_print("Removal complete!");
+ui_print(" -Backup script installed, now it'll survive dirty flashes as well as OTA updates.");
+ui_print(" ");
+ui_print("~NO NEED TO FLASH AGAIN~");
+ui_print(" ");
+show_progress(1, 15);
+show_progress(1, 15);
+ui_print(" ");
+show_progress(1, 15);
