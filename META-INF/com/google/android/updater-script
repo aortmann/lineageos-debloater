@@ -10,7 +10,7 @@ ui_print("->");
 ui_print("Mounting system..");
 run_program("/sbin/busybox", "mount", "/system");
 show_progress(1, 15);
-ui_print("This will remove Calendar, CMFileManager, Email, Gello, messaging, Dialer, Gallery2 and Contacts");
+ui_print("This will remove Calendar, CMFileManager, Email, Gello, messaging, Eleven (Music Player), Dialer, Gallery2 and Contacts");
 ui_print("Removing..");
 delete_recursive(
 	"/system/app/Calendar",
@@ -18,6 +18,7 @@ delete_recursive(
 	"/system/app/Email",
 	"/system/app/Gello",
 	"/system/app/messaging",
+	"/system/app/Eleven",
 	"/system/priv-app/Dialer",
 	"/system/priv-app/Gallery2",
 	"/system/priv-app/Contacts"

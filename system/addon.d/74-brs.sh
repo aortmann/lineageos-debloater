@@ -39,6 +39,7 @@ case "$1" in
    rm -rf /system/app/Email
    rm -rf /system/app/Gello
    rm -rf /system/app/messaging
+   rm -rf /system/app/Eleven
    rm -rf /system/priv-app/Dialer
    rm -rf /system/priv-app/Gallery2
    rm -rf /system/priv-app/Contacts
